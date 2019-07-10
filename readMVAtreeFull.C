@@ -141,7 +141,7 @@ void readMVAtreeFull
 
        for(const auto& h : promptDCA[ipt][jy]) {h.second->Write(); delete h.second;}
        for(const auto& h : nonPromptDCA[ipt][jy]) {h.second->Write(); delete h.second;}
-       for(const auto& h : dataDCA[ipt][jy]) {h.second->Write(); delete h.second;}
+      // for(const auto& h : dataDCA[ipt][jy]) {h.second->Write(); delete h.second;}
      }
 
    std::cout << "ended writing output file" << std::endl;  
